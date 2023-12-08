@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Sản Phẩm Gucci</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #111;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+h3{
+    font-size: 18px;
+    color: #555;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #111;font-weight: 600;
+}
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+
+}
+/* mua ngay */
+ul.products li .product-top a.by-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color:#446084 ;
+    color: #fff;
+    padding:10px 0px ;
+    position: absolute;
+    bottom: -36px;
+    width: 100%;
+    transform: 0.25s ease-in-out ;
+    opacity: 0.85;
+
+}
+ul.products li:hover a.by-now{
+    bottom: 10px;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+
+}
+thong tin
+ul.products li .product-info{
+    padding: 10px 0px;
+}
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-name{
+    color: #334862;
+    padding: 3px 0px;
+}
+ul.products li .product-info .product-price{
+    color: #111;
+    padding: 2px 0px;
+    font-weight: 600;
+}
+</style>
+<body>
+    <div id="wrapper">
+        <div class="headline">
+            <h3>Sản Phẩm Bán Chạy</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="aokhoac.jpg" alt="">
+                        </a>
+                       <a href="" class="by-now">Mua ngay</a>                   
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Men's jackets</a>
+                        <a href="" class="product-name">ÁO KHOÁC GUCCI TECHNICAL JERSEY</a>
+                        <div class="product-price">$500.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="aothunnu.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>             
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">T-shirt</a>
+                        <a href="" class="product-name">Áo thun nữ cao cấp Gucci Mickey </a>
+                        <div class="product-price">$250.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="dep.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                     
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Sandal</a>
+                        <a href="" class="product-name">Dép Gucci Original Gucci Slide 'White' </a>
+                        <div class="product-price">$700.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="giay-gucci.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                     
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Shoe</a>
+                        <a href="" class="product-name">Giày Gucci Men's '1921 Gucci' Rhyton</a>
+                        <div class="product-price">$1.500.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="tuixach.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                      
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Hand bag</a>
+                        <a href="" class="product-name">Áo Khoác Gucci chất liệu vải mát</a>
+                        <div class="product-price">$2.500.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="175951108_2781014298878342_8807200559148764472_n.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                      
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Hatc</a>
+                        <a href="" class="product-name">Mũ Nữ Gucci GG Canvas Bucket</a>
+                        <div class="product-price">$1.450.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="vi.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                     
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Squeeze Money</a>
+                        <a href="" class="product-name">Ví Gucci Kingsnake Print GG Supreme Wallet 'Black Grey'</a>
+                        <div class="product-price">$500.000</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="nuochoa.jpg" alt="">
+                        </a>
+                        <a href="" class="by-now">Mua ngay</a>                      
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Perfume</a>
+                        <a href="" class="product-name">Gucci Bloom For Women EDP</a>
+                        <div class="product-price">$230.000</div>
+                    </div>
+                </div>
+            </li>
+            
+           
+        </ul>
+
+    </div>
+
+    
+</body>
+</html>
